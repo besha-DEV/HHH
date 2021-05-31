@@ -24,6 +24,3 @@ Certified Public Accountant :bar_chart:
 ،مارجنی ١٠\٢ پێکسڵ
 
 ![HHH-layoutGrid](https://user-images.githubusercontent.com/47869682/120068918-6b659400-c083-11eb-9276-e1518e60e784.png)
-
-## رەنگی لۆگۆکە بەکارهاتووە لە ماڵپەڕەکەدا
-![Colorcode](https://user-images.githubusercontent.com/47869682/120228934-6869cf80-c24c-11eb-9d52-d6d1c3982592.jpg)
