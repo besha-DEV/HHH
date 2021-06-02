@@ -643,12 +643,10 @@ footer .address {
     background: #c72d54;
 }
 
-/* einde voor over style*/
 
 .more {
-    width: 940px;
-    margin: 20px auto;
-    padding: 0;
+    width: 950px;
+    margin: 80px auto;
 }
 
 .more-details {
@@ -667,7 +665,6 @@ footer .address {
 
 .more-text {
     flex: 3;
-    height: auto;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -677,56 +674,63 @@ footer .address {
     flex-direction: column;
     -webkit-justify-content: flex-start;
     justify-content: flex-start;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 .more-text h3 {
-    font-size: 1.5em;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    font-size: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.more-text img {
+.more-text-img {
     width: 100%;
     height: auto;
+    display: block;
+    background: url(/images/HHH-bg-png.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: 100%;
+    background-position: center;
 }
 
-.more-details aside {
+.more__aside {
     flex: 1;
-    order: 2;
-    border-left: 1px #000 solid;
+    border-left: 1px #c9c9c9 solid;
     margin-left: 10px;
+    font-size: 1.2rem;
 
 }
 
-.more-details aside h3 {
+.more__aside h3 {
     margin-left: 10px;
-    border-bottom: 1px #304556 solid;
+    border-bottom: 1px #c9c9c9 solid;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.more-details aside ul {
-    padding: 0 0 0 10px;
-    margin: 0 0 0 20px;
-    list-style: none;
-    list-style-image: url(images/list-hhh.svg);
+.more__aside a {
+    padding-left: 10px;
+    margin:20px 0;
+    display: flex;
 
 }
 
-.more-details aside ul li {
-    padding: 0 0 20px 10px;
-    font-size: 14px;
-
-
+.more__aside a:hover {
+    color: #44627a;
+    text-decoration: underline;
 }
 
-.more-details aside ul li a {
-    color: #000;
+.more__aside a:before {
+    content: '';
+    width: 50px;
+    height: 10px;
+    background: #F37989;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
-.more-details aside ul li a:hover {
-    border-bottom: 1px solid #03AA9F;
-}
 
 /* About */
 .about {
@@ -747,6 +751,11 @@ footer .address {
     width: 100%;
     height: auto;
     display: block;
+    background: url(/images/HHH-bg-png.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: 100%;
+    background-position: center;
 }
 
 .about-text {
