@@ -106,6 +106,7 @@ header {
 
 /* social */
 .Header__social {
+    flex: 1 0px;
     -webkit-flex: 1 0px;
     -webkit-order: 2;
     order: 2;
@@ -595,6 +596,7 @@ footer .address {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    flex-flow: column wrap;
     -webkit-flex-flow: column wrap;
     justify-content: space-around;
     -webkit-justify-content: space-around;
