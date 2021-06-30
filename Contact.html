@@ -1,92 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>..:| HHH |:..</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-</head>
-
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description"
+            content="HHH Certified Public Accountant was founded in 2016 to serve the needs of the Kurdistan, Iraq Business community.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>..:| HHH |:..</title>
+        <!-- style -->
+        <link rel="stylesheet" href="style.css">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
 <body>
-    <div class="container">
-        <header>
-            <section class="header__top">
-                <h2><i class="material-icons">&#xe61d;</i>
-                    +964770 153 6398</h2>
-                <div class="Header__social">
-                    <a href="#" target="_self"><img src="images/linkedin.png" alt="Linkedin"></a>
-                    <a href="#" target="_self"><img src="images/facebook.png" alt="facebook"></a>
-                    <a href="#" target="_self"><img src="images/youtube.png" alt="youtube"></a>
-                </div>
-            </section>
-        </header>
-        <div class="head flex-row">
-            <!-- Logo -->
-            <div class="logo">
-                <a href="#" target="_self"><img src="images/HHH-logo.png" alt="Logo"></a>
-            </div>
-            <!-- Menu -->
-            <div class="menu">
-                <a class="menu__link" href="/Home.html" target="_self">HOME</a>
-                <a class="menu__link" href="/about.html" target="_self">ABOUT</a>
-                <a class="menu__link" href="#" target="_self">SERVICES</a>
-                <a class="menu__link" href="#" target="_self">CLIENTS</a>
-                <a class="menu__link" href="/contact.html" target="_self">CONTACT</a>
-            </div>
-        </div>
-        <div class="contact flex-column">
-                <img class="contact__img" src="images/About-image.jpg" alt="about">
-        <div class="contact-text">
-                 <h2>Contact us</h2>
-                <p>
-                   Serve the needs of the Kurdistan, Iraq Business community. Over the years, we have enjoyed a carefully controlled pattern of steady growth that has expanded our areas of expertise while building our base of practical experience as School Accountants
-                </p>
-            </div>
-
-            <div class="contact__form flex-row--wrap">
-                <form class="contact__form-all flex-column">
-                    <label>Name</label>
-                    <input type="text" name="firstName">
-                    <label>lastName</label>
-                    <input type="text" name="lastName">
-                    <label>Phone</label>
-                    <input type="tel" name="phone">
-                    <label>E-mail</label>
-                    <input type="email" name="email">
-                    <button class="contact__form-button" type="submit" role=button>SEND</button>
-                </form>
-
-            </div>
-        </div>
-        <footer>
-            <div class="footer flex-row">
-                <div class="footer__menu flex-row">
-                    <div class="footer__menu-div">
-                        <a href="#" target="_self">Home</a>
-                        <a href="#" target="_self">About</a>
-                        <a href="#" target="_self">Services</a>
-                    </div>
-                    <div  class="footer__menu-div">
-                        <a href="#" target="_self">Client</a>
-                        <a href="#" target="_self">Contact</a>
-                    </div>
-                </div>
-                <div class="address">Malik Mahmood Circle Street <br /> Pishasazi 1 Sulaimania, Kurdistan, Iraq</div>
-            </div>
-        </footer>
-        <section class="section">
-            <div class="flex-row">
-                <h5>HHH <i class="material-icons"
-                        style="font-size:18px;color:white">copyright</i>&nbsp;2021.&nbsp;Privacy Policy</h5>
-                <a href="www.kawcode.com" target="_blank">KawCode</a>
+ <!-- responsive menu -->
+ <nav class="menu__big flex-column">
+    <a class="menu__big--a" href="/Home.html" target="_self">HOME</a>
+    <a class="menu__big--a" href="/about.html" target="_self">ABOUT</a>
+    <a class="menu__big--a" href="#" target="_self">SERVICES</a>
+    <a class="menu__big--a" href="#" target="_self">CLIENTS</a>
+    <a class="menu__big--a" href="/contact.html" target="_self">CONTACT</a>
+    <div class="Header__social--burgerMenu flex-row">
+        <a href="#" target="_self"><img src="images/linkedin.png" alt="Linkedin"></a>
+        <a href="#" target="_self"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="#" target="_self"><img src="images/youtube.png" alt="youtube"></a>
+    </div>
+</nav>
+<main class="container">
+    <!-- Header -->
+    <header>
+        <section class="header__top">
+            <a href="tel:+964 770 153 6398"><i class="material-icons">&#xe61d;</i>
+                +964 770 153 6398</a>
+            <div class="Header__social flex-row">
+                <a href="#" target="_self"><img src="images/linkedin.png" alt="Linkedin"></a>
+                <a href="#" target="_self"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="#" target="_self"><img src="images/youtube.png" alt="youtube"></a>
             </div>
         </section>
-    </div>
+    </header>
+    <!-- menu & logo -->
+    <article class="head flex-row">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#" target="_self"><img src="images/HHH-logo.png" alt="Logo"></a>
+        </div>
+        <!-- Menu Hamburger -->
+        <!-- Menu -->
+        <nav class="menu">
+            <div id="menu">
+                <div class="menu__icon--big">
+                    <div class="menu__icon"></div>
+                </div>
+            </div>
+            <a class="menu__link" href="/Home.html" target="_self">HOME</a>
+            <a class="menu__link" href="/about.html" target="_self">ABOUT</a>
+            <a class="menu__link" href="#" target="_self">SERVICES</a>
+            <a class="menu__link" href="#" target="_self">CLIENTS</a>
+            <a class="menu__link" href="/contact.html" target="_self">CONTACT</a>
+        </nav>
+    </article>
+<!-- contact -->
+    <article class="contact flex-column">
+        <img class="contact__img" src="images/About-image.jpg" alt="about">
+    <section class="contact-text">
+         <h2>Contact us</h2>
+        <p>
+           Serve the needs of the Kurdistan, Iraq Business community. Over the years, we have enjoyed a carefully controlled pattern of steady growth that has expanded our areas of expertise while building our base of practical experience as School Accountants
+        </p>
+    </section>
+    
+    <section class="contact__form flex-row--wrap">
+        <form class="contact__form-all flex-column">
+            <label for="name">Name</label>
+            <input type="text" name="firstName">
+            <label for='lName'>lastName</label>
+            <input type="text" name="lastName">
+            <label form='phone'>Phone</label>
+            <input type="tel" name="phone">
+            <label for='email'>E-mail</label>
+            <input type="email" name="email">
+            <button class="contact__form-button" type="submit" role=button>SEND</button>
+        </form>
+    </section>
+    </article>
+
+     <!-- footer -->
+     <footer>
+        <div class="footer flex-row">
+            <div class="footer__menu flex-row">
+                <div class="footer__menu-div">
+                    <a href="#" target="_self">Home</a>
+                    <a href="#" target="_self">About</a>
+                    <a href="#" target="_self">Services</a>
+                </div>
+                <div class="footer__menu-div">
+                    <a href="#" target="_self">Client</a>
+                    <a href="#" target="_self">Contact</a>
+                </div>
+            </div>
+            <div class="address">Malik Mahmood Circle Street <br /> Pishasazi 1 Sulaimania, Kurdistan, Iraq</div>
+        </div>
+    </footer>
+    <!-- copyright & company creator -->
+    <article class="section">
+        <div class="flex-row">
+            <h5>HHH <i class="material-icons"
+                    style="font-size:11px;color:white">copyright</i>&nbsp;2021.&nbsp;Privacy Policy</h5>
+            <a href="www.kawcode.com" target="_blank">KawCode</a>
+        </div>
+    </article>
+</main>
+<!-- js -->
+<script src="kaw.js"></script>
 </body>
 
 </html>

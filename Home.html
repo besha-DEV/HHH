@@ -4,50 +4,75 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description"
+        content="HHH Certified Public Accountant was founded in 2016 to serve the needs of the Kurdistan, Iraq Business community.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>..:| HHH |:..</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" media="all">
+    <!-- google font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
+    <!-- responsive menu -->
+    <nav class="menu__big flex-column">
+        <a class="menu__big--a" href="/Home.html" target="_self">HOME</a>
+        <a class="menu__big--a" href="/about.html" target="_self">ABOUT</a>
+        <a class="menu__big--a" href="#" target="_self">SERVICES</a>
+        <a class="menu__big--a" href="#" target="_self">CLIENTS</a>
+        <a class="menu__big--a" href="/contact.html" target="_self">CONTACT</a>
+        <div class="Header__social--burgerMenu flex-row">
+            <a href="#" target="_self"><img src="images/linkedin.png" alt="Linkedin"></a>
+            <a href="#" target="_self"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="#" target="_self"><img src="images/youtube.png" alt="youtube"></a>
+        </div>
+    </nav>
+    <main class="container">
+        <!-- Header -->
         <header>
             <section class="header__top">
-                <h2><i class="material-icons">&#xe61d;</i>
-                    +964770 153 6398</h2>
-                <div class="Header__social">
+                <a href="tel:+964 770 153 6398"><i class="material-icons">&#xe61d;</i>
+                    +964 770 153 6398</a>
+                <div class="Header__social flex-row">
                     <a href="#" target="_self"><img src="images/linkedin.png" alt="Linkedin"></a>
                     <a href="#" target="_self"><img src="images/facebook.png" alt="facebook"></a>
                     <a href="#" target="_self"><img src="images/youtube.png" alt="youtube"></a>
                 </div>
             </section>
         </header>
-        <div class="head flex-row">
+        <!-- menu & logo -->
+        <article class="head flex-row">
             <!-- Logo -->
             <div class="logo">
-                <a href="#" target="_self"><img src="images/HHH-logo.png" alt="Logo"></a>
+                <a href="/Home.html" target="_self"><img src="images/HHH-logo.png" alt="Logo"></a>
             </div>
+            <!-- Menu Hamburger -->
             <!-- Menu -->
-            <div class="menu">
+            <nav class="menu">
+                <div id="menu">
+                    <div class="menu__icon--big">
+                        <div class="menu__icon"></div>
+                    </div>
+                </div>
                 <a class="menu__link" href="/Home.html" target="_self">HOME</a>
                 <a class="menu__link" href="/about.html" target="_self">ABOUT</a>
                 <a class="menu__link" href="#" target="_self">SERVICES</a>
                 <a class="menu__link" href="#" target="_self">CLIENTS</a>
                 <a class="menu__link" href="/contact.html" target="_self">CONTACT</a>
-            </div>
-        </div>
-        <div class="slider flex-row">
+            </nav>
+        </article>
+        <!-- slide -->
+        <article class="slider flex-row">
             <div class="slider__text flex-column">
                 <h3 class="slider__text-h3">Hiwa Hamakhan Hamabor</h3>
                 <p class="slider__text-p">Certified Public Accountant</p>
-                <button class="slider__text-button" type="button" role="button" name="contact"> CONTACT &nbsp; &nbsp;<i
-                        class="material-icons">business</i></button>
+                <button class="slider__text-button" type="button" role="button" name="contact"> CONTACT</button>
             </div>
-        </div>
-        <div class="big__menu">
-            <div class="big__menu-center">
+        </article>
+        <!-- big menu -->
+        <article class="big__menu">
+            <section class="big__menu-center">
                 <div class="big__menu-div flex-row">
                     <aside class="big__menu-div flex-column box">
                         <p>External Audit!</p>
@@ -62,66 +87,88 @@
                         <a href="#" target="_self">HERE</a>
                     </aside>
                 </div>
-            </div>
-        </div>
-        <div class="pretext flex-row--wrap">
-           <a href="/About.html"> <h4 class="pretext__h4">Welcome Visitor</h4></a>
-           <a href="/About.html" class="pretext-content"> <p class="pretext__p">An external audit, defined as a company audit which is performed by a party which is
-                not a department or
-                employed by business to be audited, are very commonly performed</p></a>
-        </div>
-        <section class="subject__more">
-            <div class="colnew flex-row">
+            </section>
+        </article>
+        <!-- text welcome -->
+        <article class="pretext flex-row--wrap">
+            <a href="/About.html">
+                <h4 class="pretext__h4">Welcome Visitor</h4>
+            </a>
+            <a href="/About.html" class="pretext-content">
+                <p class="pretext__p">An external audit, defined as a company audit which is performed by a party which
+                    is
+                    not a department or
+                    employed by business to be audited, are very commonly performed</p>
+            </a>
+        </article>
+        <!-- more subject -->
+        <article class="subject__more" >
+            <section class="colnew flex-row">
 
-                <div class="subject__more-div flex-column">
-                    <a href="/more.html" target="_self"><figure class="subject__more-div-img"><img src="images/HHH-one.jpg" alt=""></figure></a>
-                    <a href="/more.html" target="_self"><p class="subject__more-div-a-p">The synergistic effect of our
-                        decisions is achieved through a
-                        well-established pattern of
-                        interaction between</p></a>
+                <div  class="subject__more-div flex-column">
+                    <a href="/more.html" target="_self">
+                        <figure class="subject__more-div-img"><img src="images/HHH-one.jpg" loading="lazy" alt=""></figure>
+                    </a>
+                    <a href="/more.html" target="_self">
+                        <p class="subject__more-div-a-p">The synergistic effect of our
+                            decisions is achieved through a
+                            well-established pattern of
+                            interaction between</p>
+                    </a>
                 </div>
                 <div class="subject__more-div">
-                    <a href="/more.html" target="_self"> <a href="/more.html" target="_self"><figure class="subject__more-div-img"><img src="images/HHH-two.jpg" alt=""></figure></a>
-                    <a href="/more.html" target="_self"><p class="subject__more-div-a-p">The synergistic effect of our
-                        decisions is achieved through a
-                        well-established pattern of
-                        interaction between</p></a>
+                    <a href="/more.html" target="_self"> <a href="/more.html" target="_self">
+                            <figure class="subject__more-div-img"><img src="images/HHH-two.jpg" loading="lazy" alt=""></figure>
+                        </a>
+                        <a href="/more.html" target="_self">
+                            <p class="subject__more-div-a-p">The synergistic effect of our
+                                decisions is achieved through a
+                                well-established pattern of
+                                interaction between</p>
+                        </a>
                 </div>
                 <div class="subject__more-div">
-                    <a href="/more.html" target="_self"><figure class="subject__more-div-img"><img src="images/HHH-three.jpg" alt=""></figure></a>
-                    <a href="/more.html" target="_self"><p class="subject__more-div-a-p">The synergistic effect of our
-                        decisions is achieved through a
-                        well-established pattern of
-                        interaction between our experts
-                        and key specialists of the</p></a>
+                    <a href="/more.html" target="_self">
+                        <figure class="subject__more-div-img"><img src="images/HHH-three.jpg" loading="lazy" alt=""></figure>
+                    </a>
+                    <a href="/more.html" target="_self">
+                        <p class="subject__more-div-a-p">The synergistic effect of our
+                            decisions is achieved through a
+                            well-established pattern of
+                            interaction between our experts
+                            and key specialists of the</p>
+                    </a>
                 </div>
 
-            </div>
-        </section>
+            </section>
+        </article>
+        <!-- footer -->
         <footer>
             <div class="footer flex-row">
                 <div class="footer__menu flex-row">
                     <div class="footer__menu-div">
-                        <a href="#" target="_self">Home</a>
-                        <a href="#" target="_self">About</a>
-                        <a href="#" target="_self">Services</a>
+                        <a href="/Home.html" target="_self">Home</a>
+                        <a href="/About.html" target="_self">About</a>
+                        <a href="/menu.html" target="_self">Services</a>
                     </div>
-                    <div  class="footer__menu-div">
+                    <div class="footer__menu-div">
                         <a href="#" target="_self">Client</a>
-                        <a href="#" target="_self">Contact</a>
+                        <a href="/contact.html" target="_self">Contact</a>
                     </div>
                 </div>
                 <div class="address">Malik Mahmood Circle Street <br /> Pishasazi 1 Sulaimania, Kurdistan, Iraq</div>
             </div>
         </footer>
-        <section class="section">
+        <!-- copyright & company creator -->
+        <article class="section">
             <div class="flex-row">
-                <h5>HHH <i class="material-icons"
-                        style="font-size:18px;color:white">copyright</i>&nbsp;2021.&nbsp;Privacy Policy</h5>
-                <a href="www.kawcode.com" target="_blank">KawCode</a>
+                <h5>HHH <i class="material-icons">copyright</i>&nbsp;2021.&nbsp;Privacy Policy</h5>
+                <a href="http://www.kawcode.com" target="_blank">KawCode</a>
             </div>
-        </section>
-    </div>
+        </article>
+    </main>
+    <!-- js -->
+    <script src="kaw.js"></script>
 </body>
 
 </html>
