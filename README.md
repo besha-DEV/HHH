@@ -24,3 +24,13 @@ Certified Public Accountant :bar_chart:
 ،مارجنی ١٠\٢ پێکسڵ
 
 ![HHH-layoutGrid](https://user-images.githubusercontent.com/47869682/120068918-6b659400-c083-11eb-9276-e1518e60e784.png)
+
+
+![Gutters](https://user-images.githubusercontent.com/47869682/124181049-51b9d100-dab5-11eb-827f-6c6661b34c9d.jpg)
+
+
+# Responsive 
+### لێرە دەتوانی چۆنیەتی گونجاندنی بۆ هەموو ئامێرەکان ببینیت 
+لە ئێستادا ماڵپەڕەکان دەبێت بۆ چەندین ئامێری قەبارە جیاواز دروستبکرێن پیشاندانیان بە شێوەیەکی ئاسان بێت بۆ بەکارهێنە، بەمەش ماڵپەڕەکە سەردانکەری زۆر دەبێت و کارەکانت بە شێوەیەکی باش بەڕێوە دەچێت
+
+![Screenshot 2021-06-30 at 22 12 33](https://user-images.githubusercontent.com/47869682/124026399-ee1a9f80-d9f1-11eb-8508-0686d4a29a9b.jpg)
